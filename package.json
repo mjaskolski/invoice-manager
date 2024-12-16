@@ -1,0 +1,27 @@
+{
+  "name": "invoice-manager",
+  "version": "1.0.0",
+  "description": "Automated invoice processing and organization system using Claude AI",
+  "main": "invoice-processor.js",
+  "scripts": {
+    "start": "node invoice-processor.js",
+    "process": "node invoice-processor.js",
+    "test": "echo \"No tests specified yet\" && exit 0"
+  },
+  "keywords": [
+    "invoice",
+    "pdf",
+    "automation",
+    "claude",
+    "anthropic",
+    "file-organization"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.17.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
